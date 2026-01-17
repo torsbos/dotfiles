@@ -1,0 +1,11 @@
+set info size:time
+set ratios 1
+set scrolloff 10
+map a push %mkdir<space>
+map e $vim "$f"
+map o &play -q "$f"
+map p : paste; clear
+map c clear
+%mkdir -p ~/.cache/.trash
+cmd trash &set -f; mv -t ~/.cache/.trash $fx "$fx"
+map T trash
