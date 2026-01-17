@@ -1,0 +1,5 @@
+set number
+set autoindent
+colo evening
+syntax on
+set viminfo+='1000,n~/.config/vim/viminfo
