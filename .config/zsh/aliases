@@ -1,0 +1,30 @@
+alias \
+	c='clear' \
+	update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg' \
+	au='audacity' \
+	ff='fastfetch' \
+	fx='firefox' \
+	s='source' \
+	lb='lsblk' \
+	smci='sudo make clean install' \
+	wfl='nmcli dev wifi list' \
+	wfc='nmcli dev wifi connect -a' \
+	eduroam='nmcli dev wifi connect eduroam -a' \
+	yta='yt-dlp -x --audio-format flac -i' \
+	sdn='shutdown -h now' \
+	vi='vim' \
+	v='vim' \
+	e='vim' \
+	sv='sudo vim' \
+	x='startx' \
+	vpn='systemctl status wg-quick@wg0.service' \
+	vpn0='systemctl stop wg-quick@wg0.service' \
+	vpn1='systemctl start wg-quick@wg0.service' \
+	mu='sudo mount -v /dev/sdb1 /mnt/usb' \
+	umu='sudo umount -v /mnt/usb' \
+	ls='ls -a --color=auto' \
+	grep='grep --color=auto' \
+	cp='cp -vri' \
+	mv='cp -iv' \
+	rm='rm -rvI' 
+
