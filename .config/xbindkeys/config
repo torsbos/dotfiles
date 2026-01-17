@@ -1,0 +1,11 @@
+# Increase volume
+"wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 10%+"
+   XF86AudioRaiseVolume
+
+# Decrease volume
+"wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 10%-"
+   XF86AudioLowerVolume
+
+# Mute volume
+"wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+   XF86AudioMute
