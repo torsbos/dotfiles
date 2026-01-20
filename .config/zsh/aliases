@@ -1,10 +1,14 @@
 alias \
 	c='clear' \
 	update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg' \
+	m='mutt' \
+	nb='newsboat' \
+	z='zathura' \
 	au='audacity' \
 	ff='fastfetch' \
 	fx='firefox' \
 	s='source' \
+	sa='source ~/.config/zsh/aliases' \
 	lb='lsblk' \
 	smci='sudo make clean install' \
 	wfl='nmcli dev wifi list' \
