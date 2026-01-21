@@ -2,6 +2,7 @@ alias \
 	c='clear' \
 	update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg' \
 	m='mutt' \
+    lg='lazygit' \
 	nb='newsboat' \
 	z='zathura' \
 	au='audacity' \
