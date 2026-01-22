@@ -14,3 +14,6 @@ bind-key u pageup
 bind-key l open
 bind-key h quit
 bind-key U show-urls
+
+macro , open-in-browser
+macro v set browser "mpv"; open-in-browser; set browser qutebrowser
