@@ -27,7 +27,7 @@ alias \
 	vpn1='systemctl start wg-quick@wg0.service' \
 	mu='sudo mount -v /dev/sdb1 /mnt/usb' \
 	umu='sudo umount -v /mnt/usb' \
-	ls='ls -a --color=auto' \
+	ls='ls -lah --color=auto' \
 	grep='grep --color=auto' \
 	cp='cp -vri' \
 	mv='cp -iv' \
