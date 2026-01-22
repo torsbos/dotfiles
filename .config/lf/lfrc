@@ -9,3 +9,16 @@ map c clear
 %mkdir -p ~/.cache/.trash
 cmd trash &set -f; mv -t ~/.cache/.trash $fx "$fx"
 map T trash
+map gl cd ~/dotfiles/.config/lf
+map g. cd ~/dotfiles
+map gc cd ~/.config
+map gC cd ~/.cache
+map gd cd ~/Documents
+map gD cd ~/Downloads
+map gp cd ~/Pictures
+map gM cd ~/Music
+map gw cd /var/www
+map gm cd /mnt
+map gu cd ~/Documents/uppgifter
+map gk cd ~/Documents/kompendium
+map gr cd /
