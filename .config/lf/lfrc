@@ -4,12 +4,21 @@ set scrolloff 10
 map a push %mkdir<space>
 map e $vim "$f"
 map o &play -q "$f"
+map P !play "$f"
 map p : paste; clear
 map c clear
 %mkdir -p ~/.cache/.trash
 cmd trash &set -f; mv -t ~/.cache/.trash $fx "$fx"
 map T trash
 map gl cd ~/dotfiles/.config/lf
+map gn cd ~/dotfiles/.config/newsboat
+map gN cd ~/.config/newsboat
+map gq cd ~/dotfiles/.config/qutebrowser
+map gv cd ~/dotfiles/.config/vim
+map gz cd ~/dotfiles/.config/zsh
+map gy cd ~/dotfiles/.config/yt-dlp
+map gx cd ~/dotfiles/.config/x11
+map gX cd ~/dotfiles/.config/xbindekys
 map g. cd ~/dotfiles
 map gc cd ~/.config
 map gC cd ~/.cache
