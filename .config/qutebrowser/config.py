@@ -10,6 +10,7 @@ c.url.searchengines = {
     'DEFAULT': 'https://searxng.site/searxng/?q={}', 
     'aw': 'https://wiki.archlinux.org/?search={}', 
     'w': 'https://en.wikipedia.org/?search={}', 
+    'yt': 'https://youtube.com/results?search_query={}', 
     'ub' : 'https://gu-se-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{}&vid=46GUB_VU1&search_scope=default_scope&sortby=rank&lang=sv_SE',
     'r': 'https://old.reddit.com/r/{}'
 }
