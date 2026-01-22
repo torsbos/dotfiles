@@ -3,8 +3,6 @@ set autoindent
 colo evening
 syntax on
 set viminfo+='1000,n~/.config/vim/viminfo
-set wrap
-set tw=72
 
 command NN set nu!
 command CG !groff -ms %:t -k latin-1 -T pdf > groff.pdf
@@ -50,19 +48,3 @@ set nobackup
 set nowb
 set noswapfile
 
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Text, tab and indent related
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Use spaces instead of tabs
-set expandtab
-
-" Be smart when using tabs ;)
-set smarttab
-
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
-
-set ai "Auto indent
-set si "Smart indent
