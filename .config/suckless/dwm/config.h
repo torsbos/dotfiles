@@ -64,10 +64,12 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *slockcmd[]  = { "/usr/bin/slock", NULL };
 static const char *qutecmd[]  = { "/usr/bin/qutebrowser", NULL };
+static const char *passmenucmd[]  = { "/usr/bin/passmenu", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
+	{ MODKEY|ShiftMask,             XK_p,	   spawn,          {.v = passmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_l,      spawn,          {.v = slockcmd } },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = qutecmd } },
