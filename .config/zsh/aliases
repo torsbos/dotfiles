@@ -10,6 +10,8 @@ alias \
 	fx='firefox' \
 	s='source' \
 	sa='source ~/.config/zsh/aliases' \
+	scsc='sudo cryptsetup close' \
+	scso='sudo cryptsetup open' \
 	lb='lsblk' \
 	smci='sudo make clean install' \
 	wfl='nmcli dev wifi list' \
