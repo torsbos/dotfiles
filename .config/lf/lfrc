@@ -14,6 +14,7 @@ map gl cd ~/dotfiles/.config/lf
 map gn cd ~/dotfiles/.config/newsboat
 map gN cd ~/.config/newsboat
 map gq cd ~/dotfiles/.config/qutebrowser
+map gs cd ~/dotfiles/.config/suckless
 map gv cd ~/dotfiles/.config/vim
 map gz cd ~/dotfiles/.config/zsh
 map gy cd ~/dotfiles/.config/yt-dlp
@@ -22,6 +23,7 @@ map gX cd ~/dotfiles/.config/xbindekys
 map g. cd ~/dotfiles
 map gc cd ~/.config
 map gC cd ~/.cache
+map gt cd ~/.cache/.trash
 map gd cd ~/Documents
 map gD cd ~/Downloads
 map gp cd ~/Pictures
