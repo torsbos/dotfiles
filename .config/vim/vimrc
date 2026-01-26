@@ -5,7 +5,7 @@ syntax on
 set viminfo+='1000,n~/.config/vim/viminfo
 
 command NN set nu!
-command CG !groff -ms %:t -k latin-1 -T pdf > groff.pdf
+command CG !groff -ms %:t -k -T pdf > %:t.pdf
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 
 set ignorecase
