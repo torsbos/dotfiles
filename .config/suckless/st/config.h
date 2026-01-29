@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "IBM Plex Mono:pixelsize=12";
+static char *font = "Terminus:pixelsize=16";
 static int borderpx = 2;
 
 /*
