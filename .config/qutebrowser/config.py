@@ -7,7 +7,7 @@ config.set('content.javascript.enabled', False, 'chrome://*/*')
 config.set('content.javascript.enabled', False, 'qute://*/*')
 c.url.default_page = 'about:blank'
 c.url.searchengines = {
-    'DEFAULT': 'https://searx.tiekoetter.com/?q={}',
+    'DEFAULT': 'https://search.brave.com/search?q={}',
     'aw': 'https://wiki.archlinux.org/?search={}', 
     'we': 'https://en.wikipedia.org/?search={}', 
     'ws': 'https://sv.wikipedia.org/?search={}', 
