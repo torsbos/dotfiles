@@ -1,8 +1,16 @@
 alias \
-	c='clear' \
 	update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg' \
 	m='mutt' \
-    lg='lazygit' \
+	lg='lazygit' \
+	om='wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && wpctl status -n' \
+	oi='wpctl set-volume @DEFAULT_AUDIO_SINK@ 10%+ && wpctl status -n' \
+	od='wpctl set-volume @DEFAULT_AUDIO_SINK@ 10%- && wpctl status -n' \
+	ov='wpctl set-volume @DEFAULT_AUDIO_SINK@' \
+	im='wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle && wpctl status -n' \
+	ii='wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 10%+ && wpctl status -n' \
+	id='wpctl set-volume @DEFAULT_AUDIO_SOURCE@ 10%- && wpctl status -n' \
+	iv='wpctl set-volume @DEFAULT_AUDIO_SOURCE@' \
+	otp='pass otp -c' \
 	nb='newsboat' \
 	z='zathura' \
 	au='audacity' \
