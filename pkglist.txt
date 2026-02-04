@@ -32,6 +32,8 @@ ca-certificates
 ca-certificates-mozilla
 ca-certificates-utils
 cairo
+calcurse
+canvas-downloader-bin
 coreutils
 cryptsetup
 curl
@@ -44,6 +46,7 @@ dbus-units
 dconf
 debugedit
 default-cursors
+deno
 desktop-file-utils
 device-mapper
 diffutils
@@ -143,6 +146,7 @@ lcms2
 leancrypto
 less
 lf
+libaio
 libao
 libarchive
 libass
@@ -308,6 +312,7 @@ libyaml
 libyuv
 licenses
 lilv
+linux
 linux-api-headers
 linux-firmware
 linux-firmware-amdgpu
@@ -328,6 +333,7 @@ lmdb
 lua
 luajit
 lv2
+lvm2
 lynx
 lz4
 lzo
@@ -436,7 +442,6 @@ shaderc
 shadow
 shared-mime-info
 slang
-slock
 snappy
 sord
 sox
@@ -457,8 +462,10 @@ systemd-sysvcompat
 tar
 terminus-font
 texinfo
+thin-provisioning-tools
 tinysparql
 tpm2-tss
+traceroute
 tree
 tslib
 ttf-liberation
@@ -488,7 +495,6 @@ woff2
 wpa_supplicant
 x264
 x265
-xbindkeys
 xcb-proto
 xcb-util
 xcb-util-cursor
@@ -517,7 +523,9 @@ xvidcore
 xxhash
 xz
 yay
+yay-debug
 yt-dlp
+yt-dlp-ejs
 yyjson
 zathura
 zathura-pdf-poppler
