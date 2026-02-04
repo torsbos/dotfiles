@@ -19,3 +19,4 @@ c.url.start_pages = 'about:blank'
 c.colors.webpage.darkmode.enabled = True
 config.bind('<Ctrl+o>', 'hint links spawn --detach mpv {hint-url}')
 config.bind('ch', 'history-clear')
+c.downloads.location.directory = '~'
