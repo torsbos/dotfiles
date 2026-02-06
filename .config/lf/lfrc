@@ -28,7 +28,7 @@ map gd cd ~/Documents
 map gD cd ~/Downloads
 map gp cd ~/Pictures
 map gM cd ~/Music
-map gw cd /var/www
+map gw cd ~/Documents/hemsida
 map gm cd /mnt
 map gu cd ~/Documents/uppgifter
 map gk cd ~/Documents/kompendium
