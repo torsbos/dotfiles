@@ -1,5 +1,9 @@
 set number
 set autoindent
+set smartindent
+set sw=2
+set ts=2
+set expandtab
 colo evening
 syntax on
 set viminfo+='1000,n~/.config/vim/viminfo
@@ -18,3 +22,4 @@ set mat=2
 set nobackup
 set nowb
 set noswapfile
+
