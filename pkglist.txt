@@ -4,6 +4,7 @@ adwaita-cursors
 adwaita-fonts
 adwaita-icon-theme
 adwaita-icon-theme-legacy
+aerc
 alsa-card-profiles
 alsa-lib
 alsa-topology-conf
@@ -90,6 +91,7 @@ glib2
 glibc
 glslang
 glycin
+gmime3
 gmp
 gnu-free-fonts
 gnulib-l10n
@@ -167,6 +169,7 @@ libb64
 libbluray
 libbpf
 libbs2b
+libbsd
 libcap
 libcap-ng
 libcdio
@@ -217,6 +220,7 @@ liblqr
 libmad
 libmakepkg-dropins
 libmanette
+libmd
 libmm-glib
 libmnl
 libmodplug
@@ -351,7 +355,6 @@ lua
 luajit
 lv2
 lvm2
-lynx
 lz4
 lzo
 m4
@@ -371,11 +374,11 @@ mpg123
 mpv
 mtdev
 mujs
-mutt
 ncurses
 nettle
 networkmanager
 newsboat
+notmuch-runtime
 npth
 nspr
 nss
@@ -556,7 +559,6 @@ qt6-svg
 qt6-translations
 qt6-webchannel
 qt6-webengine
-qutebrowser
 rav1e
 re2
 readline
@@ -569,6 +571,7 @@ sdl2-compat
 sdl3
 sed
 serd
+sfsexp
 shaderc
 shadow
 shared-mime-info
@@ -590,6 +593,7 @@ svt-av1
 systemd
 systemd-libs
 systemd-sysvcompat
+talloc
 tar
 terminus-font
 texinfo
@@ -624,6 +628,7 @@ vim
 vim-runtime
 vmaf
 vulkan-icd-loader
+w3m
 wavpack
 wayland
 webkit2gtk
@@ -635,6 +640,7 @@ woff2
 wpa_supplicant
 x264
 x265
+xapian-core
 xcb-proto
 xcb-util
 xcb-util-cursor
