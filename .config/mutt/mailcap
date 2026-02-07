@@ -1,1 +1,0 @@
-text/html; lynx -assume_charset=iso-8859-1 -display_charset=iso-8859-1 -collapse_br_tags -dump %s; nametemplate=%s.html; copiousoutput
