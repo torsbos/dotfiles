@@ -1,5 +1,5 @@
 external-url-viewer "urlview"
-browser qutebrowser
+browser librewolf
 
 bind-key j down
 bind-key k up
@@ -16,4 +16,4 @@ bind-key h quit
 bind-key U show-urls
 
 macro , open-in-browser
-macro v set browser "mpv"; open-in-browser; set browser qutebrowser
+macro v set browser "mpv"; open-in-browser; set browser librewolf
