@@ -1,7 +1,7 @@
 alias \
   alias sudo='sudo ' \
 	update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg' \
-	m='mutt' \
+	m='aerc' \
 	lg='lazygit' \
 	om='wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && wpctl status | grep Stereo' \
 	ov='wpctl set-volume @DEFAULT_AUDIO_SINK@' \
