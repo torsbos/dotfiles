@@ -33,6 +33,8 @@ map gm cd /mnt
 map gu cd ~/Documents/uppgifter
 map gk cd ~/Documents/kompendium
 map gr cd /
+map ge cd /etc
+map gP cd /etc/pacman.d
 map gU cd /usr
 map gb cd /usr/local/bin
 map gB cd /usr/bin
