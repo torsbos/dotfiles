@@ -35,5 +35,7 @@ alias \
 	grep='grep --color=auto' \
 	cp='cp -vri' \
 	mv='cp -iv' \
-	rm='rm -rvI' 
+	rm='rm -rvI' \
+  er='ecasound -c -s' \
+  em='ecasound -s x* && play m/*' 
 
