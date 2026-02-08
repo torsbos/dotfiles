@@ -37,5 +37,7 @@ alias \
 	mv='cp -iv' \
 	rm='rm -rvI' \
   er='ecasound -c -s' \
-  em='ecasound -s x* && play m/*' 
+  em='ecasound -s x* && play m/*' \
+  lc='pdflatex *.tex' \
+  lcc='pdflatex *.tex && biber *.bcf && pdflatex *.tex'
 
