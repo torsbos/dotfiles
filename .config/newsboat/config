@@ -1,3 +1,4 @@
+cleanup-on-quit yes
 external-url-viewer "urlview"
 browser librewolf
 
