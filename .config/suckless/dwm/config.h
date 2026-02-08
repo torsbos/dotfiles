@@ -66,17 +66,17 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_gray2, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char *slockcmd[]  = { "/usr/local/bin/slock", NULL };
-/*static const char *qutecmd[]  = { "/usr/bin/qutebrowser", NULL };*/
+static const char *zathuracmd[]  = { "/usr/bin/zathura", NULL };
 static const char *librecmd[]  = { "/usr/bin/librewolf", NULL };
 static const char *passmenucmd[]  = { "/usr/bin/passmenu", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
-	{ MODKEY|ShiftMask,             XK_p,	   spawn,          {.v = passmenucmd } },
-	{ MODKEY|ShiftMask,             XK_s, spawn,          {.v = termcmd } },
+	{ MODKEY|ShiftMask,             XK_p,	     spawn,          {.v = passmenucmd } },
+	{ MODKEY|ShiftMask,             XK_s,      spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_l,      spawn,          {.v = slockcmd } },
-	/*{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = qutecmd } },*/
+	{ MODKEY|ShiftMask,             XK_z,      spawn,          {.v = zathuracmd } },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = librecmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
