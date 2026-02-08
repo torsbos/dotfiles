@@ -142,7 +142,6 @@ iso-codes
 jansson
 jbig2dec
 jbigkit
-jpegoptim
 json-c
 json-glib
 kbd
@@ -180,6 +179,7 @@ libcups
 libdaemon
 libdatrie
 libde265
+libdecor
 libdeflate
 libdisplay-info
 libdovi
@@ -577,6 +577,7 @@ shadow
 shared-mime-info
 slang
 snappy
+sndio
 sord
 sox
 speex
