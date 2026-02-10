@@ -552,6 +552,7 @@ python-requests
 python-urllib3
 python-yaml
 qrencode
+qrtool
 qt6-base
 qt6-declarative
 qt6-positioning
