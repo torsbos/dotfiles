@@ -10,8 +10,8 @@ alias \
 	ls='ls -lah --color=auto' \
 	grep='grep --color=auto' \
 	cp='cp -vri' \
-	mv='cp -iv' \
-	rm='rm -rvI' \
+	mv='mv -iv' \
+	rm='rm -v' \
 	om='wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && wpctl status | grep Stereo' \
 	ov='wpctl set-volume @DEFAULT_AUDIO_SINK@' \
 	im='wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle && wpctl status | grep Stereo' \
