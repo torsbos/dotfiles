@@ -30,9 +30,9 @@ alias \
   ea='$EDITOR ~/.dotfiles/.config/shell/aliases' \
   elf='$EDITOR ~/.dotfiles/.config/lf/lfrc' \
   pas='pass -c' \
-  lgr='zathura ~/Documents/kompendium/Lgr22.pdf' \
-  apa='zathura ~/Documents/kompendium/APA7-lathund.pdf' \
-  kanon='zathura ~/Documents/kompendium/sou-202592.pdf' \
+  lgr='zathura ~/doc/uni/kompendium/Lgr22.pdf' \
+  apa='zathura ~/doc/uni/kompendium/APA7-lathund.pdf' \
+  kanon='zathura ~/doc/uni/kompendium/sou-202592.pdf' \
 	m='aerc' \
 	lg='lazygit' \
 	sdn='shutdown -h now' \

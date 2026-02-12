@@ -24,10 +24,10 @@ map gt cd ~/.cache/.trash
 map gd cd ~/doc
 map gp cd ~/pic
 map gM cd ~/mus
-map gw cd ~/doc/hemsida
+map gw cd ~/doc/web
 map gm cd /mnt
-map gu cd ~/doc/uppgifter
-map gk cd ~/doc/kompendium
+map gu cd ~/doc/uni/uppgifter
+map gk cd ~/doc/uni/kompendium
 map gr cd /
 map ge cd /etc
 map gP cd /etc/pacman.d
