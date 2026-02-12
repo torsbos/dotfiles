@@ -17,7 +17,7 @@ map gs cd ~/.dotfiles/.config/suckless
 map gv cd ~/.dotfiles/.config/vim
 map gy cd ~/.dotfiles/.config/yt-dlp
 map gx cd ~/.dotfiles/.config/x11
-map gD cd ~/.dotfiles
+map g. cd ~/.dotfiles
 map gc cd ~/.config
 map gC cd ~/.cache
 map gt cd ~/.cache/.trash

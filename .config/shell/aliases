@@ -28,6 +28,7 @@ alias \
   lc='pdflatex *.tex' \
   lcc='pdflatex *.tex && biber *.bcf && pdflatex *.tex' \
   ea='$EDITOR ~/.dotfiles/.config/shell/aliases' \
+  elf='$EDITOR ~/.dotfiles/.config/lf/lfrc' \
   pas='pass -c' \
   lgr='zathura ~/Documents/kompendium/Lgr22.pdf' \
   apa='zathura ~/Documents/kompendium/APA7-lathund.pdf' \
