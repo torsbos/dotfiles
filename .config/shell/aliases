@@ -1,0 +1,44 @@
+alias \
+  sudo='sudo ' \
+	update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg' \
+  C='calcurse' \
+	scsc='sudo cryptsetup close' \
+	scso='sudo cryptsetup open' \
+	p='pacman' \
+	e='$EDITOR' \
+	x='startx' \
+	ls='ls -lah --color=auto' \
+	grep='grep --color=auto' \
+	cp='cp -vri' \
+	mv='cp -iv' \
+	rm='rm -rvI' \
+	om='wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle && wpctl status | grep Stereo' \
+	ov='wpctl set-volume @DEFAULT_AUDIO_SINK@' \
+	im='wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle && wpctl status | grep Stereo' \
+	iv='wpctl set-volume @DEFAULT_AUDIO_SOURCE@' \
+  vol='wpctl status | grep Stereo' \
+	wfl='nmcli dev wifi list' \
+	wfc='nmcli dev wifi connect -a' \
+	edu='pass gu -c && nmcli dev wifi connect eduroam -a' \
+	vpn='systemctl status wg-quick@wg0.service' \
+	vpn0='systemctl stop wg-quick@wg0.service' \
+	vpn1='systemctl start wg-quick@wg0.service' \
+  er='ecasound -c -s' \
+  em='ecasound -s x* && play m/*' \
+  lc='pdflatex *.tex' \
+  lcc='pdflatex *.tex && biber *.bcf && pdflatex *.tex' \
+  ea='$EDITOR ~/dotfiles/.config/shell/aliases' \
+  pas='pass -c' \
+  lgr='zathura ~/Documents/kompendium/Lgr22.pdf' \
+  apa='zathura ~/Documents/kompendium/APA7-lathund.pdf' \
+  kanon='zathura ~/Documents/kompendium/sou-202592.pdf' \
+	m='aerc' \
+	lg='lazygit' \
+	sdn='shutdown -h now' \
+	smci='sudo make clean install' \
+	lb='lsblk' \
+	otp='pass otp code -c' \
+	nb='newsboat' \
+	z='zathura' \
+	s='source' \
+	sa='source ~/dotfiles/.config/shell/aliases'
