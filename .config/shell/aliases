@@ -27,7 +27,7 @@ alias \
   em='ecasound -s x* && play m/*' \
   lc='pdflatex *.tex' \
   lcc='pdflatex *.tex && biber *.bcf && pdflatex *.tex' \
-  ea='$EDITOR ~/dotfiles/.config/shell/aliases' \
+  ea='$EDITOR ~/.dotfiles/.config/shell/aliases' \
   pas='pass -c' \
   lgr='zathura ~/Documents/kompendium/Lgr22.pdf' \
   apa='zathura ~/Documents/kompendium/APA7-lathund.pdf' \
@@ -41,4 +41,4 @@ alias \
 	nb='newsboat' \
 	z='zathura' \
 	s='source' \
-	sa='source ~/dotfiles/.config/shell/aliases'
+	sa='source ~/.dotfiles/.config/shell/aliases'
