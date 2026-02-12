@@ -61,7 +61,6 @@ ecasound
 enchant
 expat
 fakeroot
-fastfetch
 feh
 ffcall
 ffmpeg
@@ -674,7 +673,6 @@ yay
 yay-debug
 yt-dlp
 yt-dlp-ejs
-yyjson
 zathura
 zathura-pdf-poppler
 zbar
@@ -684,6 +682,5 @@ zix
 zlib
 zlib-ng
 zoom
-zsh
 zstd
 zziplib
