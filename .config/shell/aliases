@@ -5,9 +5,10 @@ alias \
 	scsc='sudo cryptsetup close' \
 	scso='sudo cryptsetup open' \
 	p='pacman' \
+	r='reset' \
 	e='$EDITOR' \
 	x='startx' \
-	ls='ls -lah --color=auto' \
+	ls='ls --color=auto' \
 	grep='grep --color=auto' \
 	cp='cp -vri' \
 	mv='mv -iv' \
@@ -23,8 +24,7 @@ alias \
 	vpn='systemctl status wg-quick@wg0.service' \
 	vpn0='systemctl stop wg-quick@wg0.service' \
 	vpn1='systemctl start wg-quick@wg0.service' \
-  er='ecasound -c -s' \
-  em='ecasound -s x* && play m/*' \
+  es='ecasound -c -s' \
   lc='pdflatex *.tex' \
   lcc='pdflatex *.tex && biber *.bcf && pdflatex *.tex' \
   ea='$EDITOR ~/.dotfiles/.config/shell/aliases' \
