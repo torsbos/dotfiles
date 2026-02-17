@@ -1,7 +1,7 @@
 alias \
   sudo='sudo ' \
 	update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg' \
-  C='calcurse' \
+  c='calcurse' \
 	scsc='sudo cryptsetup close' \
 	scso='sudo cryptsetup open' \
 	p='pacman' \
