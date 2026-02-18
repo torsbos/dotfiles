@@ -1,5 +1,8 @@
-export EDITOR=vim
-export BROWSER=librewolf
+export EDITOR="vim"
+export TERMINAL="st"
+export PAGER="less"
+export BROWSER="librewolf"
+export READER="zathura"
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
