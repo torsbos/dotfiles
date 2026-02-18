@@ -5,11 +5,13 @@ alias \
 	scsc='sudo cryptsetup close' \
 	scso='sudo cryptsetup open' \
 	p='pacman' \
+	lf='nnn -eR' \
 	r='reset' \
 	e='$EDITOR' \
 	x='startx' \
-	ls='ls --color=auto' \
-	grep='grep --color=auto' \
+	ls='ls --color=always' \
+	grep='grep --color=always' \
+	less='less -R' \
 	cp='cp -vri' \
 	mv='mv -iv' \
 	rm='rm -v' \
