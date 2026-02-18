@@ -153,13 +153,14 @@ lazygit
 lcms2
 leancrypto
 less
-lf
 libaio
 libao
 libarchive
+libasan
 libass
 libassuan
 libasyncns
+libatomic
 libavc1394
 libavif
 libb2
@@ -196,8 +197,11 @@ libfdk-aac
 libffi
 libfontenc
 libfreeaptx
+libgcc
 libgcrypt
+libgfortran
 libglvnd
+libgomp
 libgpg-error
 libgudev
 libheif
@@ -216,6 +220,7 @@ libldac
 libldap
 liblo
 liblqr
+liblsan
 libmad
 libmakepkg-dropins
 libmanette
@@ -239,6 +244,7 @@ libnl
 libnm
 libnsl
 libnvme
+libobjc
 libogg
 libopenmpt
 libp11-kit
@@ -253,6 +259,7 @@ libpng
 libproxy
 libpsl
 libpulse
+libquadmath
 libraqm
 libraw1394
 librewolf-bin
@@ -271,6 +278,7 @@ libsoup3
 libsoxr
 libssh
 libssh2
+libstdc++
 libstemmer
 libsynctex
 libsysprof-capture
@@ -282,6 +290,8 @@ libtiff
 libtirpc
 libtool
 libtorrent-rasterbar
+libtsan
+libubsan
 libunibreak
 libunistring
 libunwind
@@ -377,6 +387,7 @@ ncurses
 nettle
 networkmanager
 newsboat
+nnn
 notmuch-runtime
 npth
 nspr
@@ -601,6 +612,7 @@ texinfo
 texlive-basic
 texlive-bibtexextra
 texlive-bin
+texlive-fontsrecommended
 texlive-langeuropean
 texlive-latex
 texlive-latexextra
@@ -665,6 +677,7 @@ xorg-xkbcomp
 xorg-xmodmap
 xorg-xprop
 xorg-xrdb
+xorg-xset
 xorgproto
 xvidcore
 xxhash
