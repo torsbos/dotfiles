@@ -4,7 +4,6 @@ adwaita-cursors
 adwaita-fonts
 adwaita-icon-theme
 adwaita-icon-theme-legacy
-aerc
 alsa-card-profiles
 alsa-lib
 alsa-topology-conf
@@ -55,14 +54,12 @@ device-mapper
 diffutils
 double-conversion
 duktape
-dvisvgm
 e2fsprogs
 ecasound
 enchant
 expat
 fakeroot
 feh
-ffcall
 ffmpeg
 fftw
 file
@@ -77,11 +74,9 @@ gawk
 gc
 gcc
 gcc-libs
-gd
 gdbm
 gdk-pixbuf2
 gettext
-ghostscript
 giflib
 girara
 git
@@ -90,7 +85,6 @@ glib2
 glibc
 glslang
 glycin
-gmime3
 gmp
 gnu-free-fonts
 gnulib-l10n
@@ -126,11 +120,9 @@ hidapi
 highway
 htop
 hwdata
-hydroxide
 hyphen
 iana-etc
 icu
-ijs
 imagemagick
 imlib2
 intel-ucode
@@ -139,7 +131,6 @@ iptables
 iputils
 iso-codes
 jansson
-jbig2dec
 jbigkit
 json-c
 json-glib
@@ -148,6 +139,7 @@ keyutils
 kmod
 krb5
 l-smash
+ladspa
 lame
 lazygit
 lcms2
@@ -171,6 +163,7 @@ libbs2b
 libbsd
 libcap
 libcap-ng
+libcbor
 libcdio
 libcdio-paranoia
 libcloudproviders
@@ -178,7 +171,6 @@ libcolord
 libcups
 libdaemon
 libdatrie
-libde265
 libdecor
 libdeflate
 libdisplay-info
@@ -195,6 +187,7 @@ libevent
 libexif
 libfdk-aac
 libffi
+libfido2
 libfontenc
 libfreeaptx
 libgcc
@@ -204,10 +197,8 @@ libglvnd
 libgomp
 libgpg-error
 libgudev
-libheif
 libice
 libid3tag
-libidn
 libidn2
 libiec61883
 libinput
@@ -248,7 +239,6 @@ libobjc
 libogg
 libopenmpt
 libp11-kit
-libpaper
 libpcap
 libpciaccess
 libpgm
@@ -268,7 +258,6 @@ libsamplerate
 libsasl
 libseccomp
 libsecret
-libsigsegv
 libsixel
 libsm
 libsndfile
@@ -308,7 +297,6 @@ libwebp
 libwireplumber
 libx11
 libxau
-libxaw
 libxcb
 libxcomposite
 libxcrypt
@@ -327,7 +315,6 @@ libxkbcommon-x11
 libxkbfile
 libxml2
 libxmu
-libxpm
 libxpresent
 libxrandr
 libxrender
@@ -383,12 +370,12 @@ mpg123
 mpv
 mtdev
 mujs
+mutt
 ncurses
 nettle
 networkmanager
 newsboat
 nnn
-notmuch-runtime
 npth
 nspr
 nss
@@ -396,7 +383,6 @@ oath-toolkit
 ocl-icd
 openal
 opencore-amr
-openh264
 openjpeg2
 openresolv
 openssh
@@ -541,12 +527,11 @@ pixman
 pkgconf
 polkit
 poppler
-poppler-data
 poppler-glib
 popt
 portaudio
-potrace
 procps-ng
+protonmail-bridge-core
 psmisc
 python
 python-certifi
@@ -582,7 +567,6 @@ sdl2-compat
 sdl3
 sed
 serd
-sfsexp
 shaderc
 shadow
 shared-mime-info
@@ -605,19 +589,9 @@ svt-av1
 systemd
 systemd-libs
 systemd-sysvcompat
-talloc
 tar
 terminus-font
 texinfo
-texlive-basic
-texlive-bibtexextra
-texlive-bin
-texlive-fontsrecommended
-texlive-langeuropean
-texlive-latex
-texlive-latexextra
-texlive-latexrecommended
-texlive-pictures
 thin-provisioning-tools
 tinysparql
 tpm2-tss
@@ -653,7 +627,6 @@ woff2
 wpa_supplicant
 x264
 x265
-xapian-core
 xcb-proto
 xcb-util
 xcb-util-cursor
@@ -696,4 +669,3 @@ zlib
 zlib-ng
 zoom
 zstd
-zziplib
