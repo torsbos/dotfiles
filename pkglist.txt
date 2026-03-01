@@ -59,7 +59,6 @@ ecasound
 enchant
 expat
 fakeroot
-feh
 ffmpeg
 fftw
 file
@@ -379,6 +378,7 @@ nnn
 npth
 nspr
 nss
+nsxiv
 oath-toolkit
 ocl-icd
 openal
