@@ -1,45 +1,65 @@
-alias \
-  sudo='sudo ' \
-  c='calcurse' \
-  lw='librewolf' \
-  l='clear' \
-	scsc='sudo cryptsetup close' \
-	scso='sudo cryptsetup open' \
-	p='pacman' \
-	lf='nnn -deR' \
-	e='$EDITOR' \
-	x='startx' \
-	ls='ls --color=always' \
-	grep='grep --color=always' \
-  es='ecasound -c' \
-  er='ecasound -c -s *.ecs' \
-	m='mutt' \
-	lg='lazygit' \
-	sdn='shutdown -h now' \
-	smci='sudo make clean install' \
-	lb='lsblk' \
-	otp='pass otp code -c' \
-	nb='newsboat' \
-	z='zathura' \
-  cwd='pwd | xclip && echo "file path copied"' \
-	om='wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle' \
-	ov='wpctl set-volume @DEFAULT_AUDIO_SINK@' \
-	im='wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle' \
-	iv='wpctl set-volume @DEFAULT_AUDIO_SOURCE@' \
-  vol='wpctl status | grep Stereo' \
-	wfl='nmcli dev wifi list' \
-	wfc='nmcli dev wifi connect -a' \
-	edu='pass gu -c && nmcli dev wifi connect eduroam -a' \
-	vpn='systemctl status wg-quick@wg0.service' \
-	vpn0='systemctl stop wg-quick@wg0.service' \
-	vpn1='systemctl start wg-quick@wg0.service' \
-  ea='$EDITOR ~/.dotfiles/.config/shell/aliases' \
-  lgr='zathura ~/doc/uni/lit/Lgr22.pdf' \
-  apa='zathura ~/doc/uni/lit/APA7-lathund.pdf' \
-  kanon='zathura ~/doc/uni/lit/sou-202592.pdf' \
-  sa='source ~/.dotfiles/.config/shell/aliases' \
-  add='git add' \
-  amend='git commit --amend -m' \
-  commit='git commit -m' \
-  gdiff='git diff' \
-  gst='git status | less' \
+#shorten common commands
+
+alias sudo='sudo '
+alias l='clear'
+alias p='pacman'
+alias e='$EDITOR'
+alias sdn='shutdown now'
+alias lb='lsblk'
+alias ..='cd ..'
+alias c-='cd -'
+
+alias cs='sudo cryptsetup'
+alias smci='sudo make clean install'
+
+alias m='mutt'
+alias rss='newsboat'
+alias z='zathura'
+alias c='calcurse'
+alias er='ecasound -c -s *.ecs'
+alias pic='nsxiv'
+
+alias add='git add'
+alias reset='git reset HEAD'
+alias commit='git commit -m'
+alias push='git push origin main'
+alias gdf='git diff'
+alias gst='git status -s'
+alias oops='git reset HEAD^ --soft'
+
+alias update='sudo pacman -Syu'
+alias remove='sudo pacman -Rns'
+
+#colors and presets
+
+alias cp='cp -i'
+alias mv='mv -i'
+alias lf='nnn -deR'
+alias l='ls -1AFhv --group-directories-first --color=always'
+alias ll='ls -lAFhv --group-directories-first --color=always'
+alias grep='grep --color=always'
+
+#custom commands
+alias geo='curl -s https://ipinfo.io/'
+
+alias rm='\mv -ft $@ ~/.cache/.trash/'
+alias empty-trash='\rm -rf ~/.cache/.trash && mkdir ~/.cache/.trash'
+
+alias ds='du -sh .'
+alias yy='pwd | xclip'
+
+alias wfl='nmcli dev wifi list'
+alias wfc='nmcli dev wifi connect -a'
+
+alias otp='pass otp code -c'
+alias edu='pass gu -c && nmcli dev wifi connect eduroam -a'
+
+alias vpn0='systemctl stop wg-quick@wg0.service'
+alias vpn1='systemctl start wg-quick@wg0.service'
+
+alias ea='$EDITOR ~/.dotfiles/.config/shell/aliases'
+alias sa='source ~/.dotfiles/.config/shell/aliases'
+
+alias mute='wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle'
+alias vol='wpctl set-volume'
+alias vst='wpctl status'
