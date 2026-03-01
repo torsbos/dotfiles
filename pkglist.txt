@@ -64,6 +64,7 @@ fftw
 file
 filesystem
 findutils
+firefox
 flac
 flex
 fontconfig
@@ -251,7 +252,6 @@ libpulse
 libquadmath
 libraqm
 libraw1394
-librewolf-bin
 librsvg
 libsamplerate
 libsasl
@@ -655,7 +655,6 @@ xorgproto
 xvidcore
 xxhash
 xz
-yay
 yay-debug
 yt-dlp
 yt-dlp-ejs
@@ -667,5 +666,4 @@ zimg
 zix
 zlib
 zlib-ng
-zoom
 zstd
