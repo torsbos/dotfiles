@@ -67,7 +67,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *slockcmd[]  = { "/usr/local/bin/slock", NULL };
 static const char *zathuracmd[]  = { "/usr/bin/zathura", NULL };
-static const char *librecmd[]  = { "/usr/bin/librewolf", NULL };
+static const char *firefoxcmd[]  = { "/usr/bin/firefox", NULL };
 static const char *passmenucmd[]  = { "/usr/bin/passmenu", NULL };
 
 static const Key keys[] = {
@@ -77,7 +77,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_s,      spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_l,      spawn,          {.v = slockcmd } },
 	{ MODKEY|ShiftMask,             XK_z,      spawn,          {.v = zathuracmd } },
-	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = librecmd } },
+	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = firefoxcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
