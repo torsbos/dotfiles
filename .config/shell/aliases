@@ -4,9 +4,11 @@ alias sudo='sudo '
 alias l='clear'
 alias p='pacman'
 alias e='$EDITOR'
+alias o='xdg-open'
 alias sdn='shutdown now'
 alias lb='lsblk'
-alias ..='cd ..'
+alias ..='cd .. && pwd'
+alias ...='cd ../.. && pwd'
 alias c-='cd -'
 
 alias cs='sudo cryptsetup'
@@ -29,6 +31,9 @@ alias oops='git reset HEAD^ --soft'
 
 alias update='sudo pacman -Syu'
 alias remove='sudo pacman -Rns'
+alias gimme='sudo pacman -S'
+alias search='pacman -Ss'
+alias detail='pacman -Si'
 
 #colors and presets
 
