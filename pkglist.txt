@@ -35,7 +35,6 @@ ca-certificates-mozilla
 ca-certificates-utils
 cairo
 calcurse
-canvas-downloader-bin
 coreutils
 cryptsetup
 curl
@@ -48,7 +47,6 @@ dbus-units
 dconf
 debugedit
 default-cursors
-deno
 desktop-file-utils
 device-mapper
 diffutils
@@ -141,7 +139,6 @@ krb5
 l-smash
 ladspa
 lame
-lazygit
 lcms2
 leancrypto
 less
@@ -374,7 +371,6 @@ ncurses
 nettle
 networkmanager
 newsboat
-nnn
 npth
 nspr
 nss
@@ -574,7 +570,6 @@ slang
 snappy
 sndio
 sord
-sox
 speex
 speexdsp
 spirv-tools
@@ -655,9 +650,6 @@ xorgproto
 xvidcore
 xxhash
 xz
-yay-debug
-yt-dlp
-yt-dlp-ejs
 zathura
 zathura-pdf-poppler
 zbar
