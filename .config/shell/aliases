@@ -1,45 +1,24 @@
 #shorten common commands
 
 alias sudo='sudo '
-alias l='clear'
-alias p='pacman'
 alias e='$EDITOR'
-alias o='xdg-open'
 alias sdn='shutdown now'
-alias lb='lsblk'
-alias ..='cd .. && pwd'
-alias ...='cd ../.. && pwd'
-alias c-='cd -'
 
-alias cs='sudo cryptsetup'
-alias smci='sudo make clean install'
-
-alias m='mutt'
-alias rss='newsboat'
-alias z='zathura'
-alias c='calcurse'
 alias er='ecasound -c -s *.ecs'
 alias pic='nsxiv'
 
 alias add='git add'
-alias reset='git reset HEAD'
+alias unadd='git reset HEAD'
 alias commit='git commit -m'
 alias push='git push origin main'
 alias gdf='git diff'
 alias gst='git status -s'
 alias oops='git reset HEAD^ --soft'
 
-alias update='sudo pacman -Syu'
-alias remove='sudo pacman -Rns'
-alias gimme='sudo pacman -S'
-alias search='pacman -Ss'
-alias detail='pacman -Si'
-
 #colors and presets
 
 alias cp='cp -i'
 alias mv='mv -i'
-alias lf='nnn -deR'
 alias l='ls -1AFhv --group-directories-first --color=always'
 alias ll='ls -lAFhv --group-directories-first --color=always'
 alias grep='grep --color=always'
@@ -47,11 +26,8 @@ alias grep='grep --color=always'
 #custom commands
 alias geo='curl -s https://ipinfo.io/'
 
-alias rm='\mv -ft $@ ~/.cache/.trash/'
+alias rm='\mv --backup=t -t $@ ~/.cache/.trash/'
 alias empty-trash='\rm -rf ~/.cache/.trash && mkdir ~/.cache/.trash'
-
-alias ds='du -sh .'
-alias yy='pwd | xclip'
 
 alias wfl='nmcli dev wifi list'
 alias wfc='nmcli dev wifi connect -a'
@@ -62,9 +38,11 @@ alias edu='pass gu -c && nmcli dev wifi connect eduroam -a'
 alias vpn0='systemctl stop wg-quick@wg0.service'
 alias vpn1='systemctl start wg-quick@wg0.service'
 
-alias ea='$EDITOR ~/.dotfiles/.config/shell/aliases'
-alias sa='source ~/.dotfiles/.config/shell/aliases'
-
 alias mute='wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle'
 alias vol='wpctl set-volume'
 alias vst='wpctl status'
+
+function mkcd() {
+  mkdir ${1}
+  cd ${1}
+  }
