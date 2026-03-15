@@ -219,7 +219,7 @@ static void spawn(const Arg *arg);
 static void tag(const Arg *arg);
 static void tagmon(const Arg *arg);
 static void tile(Monitor *m);
-static void togglebar(const Arg *arg);
+/*static void togglebar(const Arg *arg);*/
 static void togglefloating(const Arg *arg);
 static void toggletag(const Arg *arg);
 static void toggleview(const Arg *arg);
@@ -420,6 +420,7 @@ arrangemon(Monitor *m)
 	if (m->lt[m->sellt]->arrange)
 		m->lt[m->sellt]->arrange(m);
 }
+
 
 void
 attach(Client *c)
@@ -1832,7 +1833,7 @@ tile(Monitor *m)
 				ty += HEIGHT(c);
 		}
 }
-
+/*
 void
 togglebar(const Arg *arg)
 {
@@ -1841,7 +1842,7 @@ togglebar(const Arg *arg)
 	XMoveResizeWindow(dpy, selmon->barwin, selmon->wx, selmon->by, selmon->ww, bh);
 	arrange(selmon);
 }
-
+*/
 void
 togglefloating(const Arg *arg)
 {

@@ -1,6 +1,15 @@
+# col # item              # fg      # bg
+color background          default   default        # the most bottom bar
+color listnormal          default   default        # unfocused and without N
+color listnormal_unread   default   default # unfocused and with N
+color listfocus           default   default reverse        # focused and without N
+color listfocus_unread    default   default reverse  # focused but with N
+color info                default   default         # bottom and top info bars
+color article             default   default        # content of an article
+
 cleanup-on-quit yes
 external-url-viewer "urlview"
-browser librewolf
+browser firefox
 
 bind-key j down
 bind-key k up
@@ -16,5 +25,5 @@ bind-key l open
 bind-key h quit
 bind-key U show-urls
 
-macro , open-in-browser
-macro v set browser "mpv"; open-in-browser; set browser librewolf
+#macro , open-in-browser
+#macro v set browser "mpv"; open-in-browser; set browser librewolf

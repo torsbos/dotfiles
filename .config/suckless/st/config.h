@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus:pixelsize=16";
+static char *font = "VGA:pixelsize=16";
 static int borderpx = 2;
 
 /*
@@ -97,31 +97,31 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
+	"#d56650",
+	"#91a080",
+	"#bda675",
+	"#76846c",
+	"#ac6561",
+	"#838464",
 	"gray90",
 
 	/* 8 bright colors */
 	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
+	"#d56650",
+	"#91a080",
+	"#bda675",
+	"#76846c",
+	"#ac6561",
+	"#838464",
 	"white",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"black",    /*"#cccccc",*/
+	"#ffffec",  /*"#555555",*/
+	"black",    /* default foreground colour - gray90 */
+	"#ffffec",  /* default background colour - black */
 };
 
 
