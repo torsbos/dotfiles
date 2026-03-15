@@ -54,6 +54,7 @@ double-conversion
 duktape
 e2fsprogs
 ecasound
+ed
 enchant
 expat
 fakeroot
@@ -116,7 +117,6 @@ harfbuzz-icu
 hicolor-icon-theme
 hidapi
 highway
-htop
 hwdata
 hyphen
 iana-etc
@@ -554,7 +554,6 @@ qt6-webengine
 rav1e
 re2
 readline
-redshift
 reflector
 rtkit
 rubberband
@@ -570,6 +569,7 @@ slang
 snappy
 sndio
 sord
+spandsp
 speex
 speexdsp
 spirv-tools
@@ -646,6 +646,7 @@ xorg-xmodmap
 xorg-xprop
 xorg-xrdb
 xorg-xset
+xorg-xsetroot
 xorgproto
 xvidcore
 xxhash
