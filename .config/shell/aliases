@@ -52,3 +52,15 @@ bco() {
 met() {
   ecasound -q -i:null -o:alsa -pn:metronome,${1}
 }
+play() {
+  ecasignalview -i ${1} -o jack,system
+}
+c(){
+  if [ -d "${1}" ]; then
+    cd ${1};
+  elif [ -f "${1}" ]; then
+    cat ${1};
+  else
+    clear;
+  fi  
+}

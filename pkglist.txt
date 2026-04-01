@@ -293,6 +293,7 @@ libwebp
 libwireplumber
 libx11
 libxau
+libxaw
 libxcb
 libxcomposite
 libxcrypt
@@ -311,6 +312,7 @@ libxkbcommon-x11
 libxkbfile
 libxml2
 libxmu
+libxpm
 libxpresent
 libxrandr
 libxrender
@@ -344,6 +346,7 @@ llvm-libs
 lm_sensors
 lmdb
 lua
+lua54
 luajit
 lv2
 lvm2
@@ -367,6 +370,7 @@ mpv
 mtdev
 mujs
 mutt
+nano
 ncurses
 nettle
 networkmanager
@@ -379,6 +383,7 @@ oath-toolkit
 ocl-icd
 openal
 opencore-amr
+openh264
 openjpeg2
 openresolv
 openssh
@@ -640,6 +645,7 @@ xorg-server
 xorg-server-common
 xorg-setxkbmap
 xorg-xauth
+xorg-xclock
 xorg-xinit
 xorg-xkbcomp
 xorg-xmodmap
