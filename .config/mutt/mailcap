@@ -1,2 +1,2 @@
-#text/html; w3m -I iso-8859-1 -O iso-8859-1 
 text/html; w3m -I iso-8859-1 -O iso-8859-1 -T text/html; copiousoutput;
+application/pdf; zathura %s;
