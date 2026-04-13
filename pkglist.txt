@@ -13,6 +13,7 @@ arch-audit
 archlinux-keyring
 at-spi2-core
 attr
+audacity
 audiofile
 audit
 autoconf
@@ -217,6 +218,7 @@ libmm-glib
 libmnl
 libmodplug
 libmpc
+libmspack
 libmysofa
 libnatpmp
 libndp
@@ -230,6 +232,7 @@ libngtcp2
 libnice
 libnl
 libnm
+libnotify
 libnsl
 libnvme
 libobjc
@@ -252,6 +255,7 @@ libraw1394
 librsvg
 libsamplerate
 libsasl
+libsbsms
 libseccomp
 libsecret
 libsixel
@@ -370,11 +374,11 @@ mpv
 mtdev
 mujs
 mutt
-nano
 ncurses
 nettle
 networkmanager
 newsboat
+nftables
 npth
 nspr
 nss
@@ -531,6 +535,8 @@ poppler
 poppler-glib
 popt
 portaudio
+portmidi
+portsmf
 procps-ng
 protonmail-bridge-core
 psmisc
@@ -549,6 +555,9 @@ python-urllib3
 python-yaml
 qrencode
 qrtool
+qt5-base
+qt5-translations
+qt5-x11extras
 qt6-base
 qt6-declarative
 qt6-positioning
@@ -574,6 +583,7 @@ slang
 snappy
 sndio
 sord
+soundtouch
 spandsp
 speex
 speexdsp
@@ -585,6 +595,7 @@ startup-notification
 stfl
 stow
 sudo
+suil
 svt-av1
 systemd
 systemd-libs
@@ -609,6 +620,7 @@ urlview
 util-linux
 util-linux-libs
 v4l-utils
+vamp-plugin-sdk
 vapoursynth
 vid.stab
 vim
@@ -625,6 +637,8 @@ wireguard-tools
 wireplumber
 woff2
 wpa_supplicant
+wxwidgets-common
+wxwidgets-gtk3
 x264
 x265
 xcb-proto

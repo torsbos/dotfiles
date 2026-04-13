@@ -1,0 +1,22 @@
+set autoindent
+set smartindent
+set sw=2
+set ts=2
+set expandtab
+set viminfo+='1000,n~/.config/vim/viminfo
+
+command CC !groff -ms %:t -k -T pdf > %:t.pdf
+command WC !cat %:t | wc -w
+command ES !ecasound -c -s %:t
+command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
+
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+set lazyredraw
+set showmatch
+set mat=2
+set nobackup
+set nowb
+set noswapfile

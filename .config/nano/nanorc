@@ -1,7 +1,0 @@
-set autoindent
-set boldtext
-set minibar
-set cutfromcursor
-set tabsize 2
-set tabstospaces
-set zero
