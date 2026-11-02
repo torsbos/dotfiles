@@ -1,0 +1,6 @@
+alias ls='ls -lAh --group-directories --color=always'
+alias e=vim
+
+alias ins='sudo xbps-install -S'
+alias rem='sudo xbps-remove -Ro'
+alias que='xbps-query -Rs'

@@ -1,5 +1,0 @@
-setxkbmap se -option caps:escape &
-xset r rate 250 30 &
-xsetroot -solid lightgray
-protonmail-bridge-core --noninteractive &
-exec dwm
